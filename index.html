@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="h-screen bg-black flex justify-center items-center">
+    <div class="bg-white w-100 h-40 px-5 py-7 rounded flex justify-center items-center flex-col">
+        <div id="progress" class="bg-gray-400 rounded-full h-5 w-90">
+            <div id="line" class="bg-green-400 w-0 h-full rounded-full"></div>
+        </div>
+        <div class="self-end mt-2">
+            <h5>
+                0%
+            </h5>
+        </div>
+        <div class="info flex justify-center gap-50 w-100 mt-2">
+            <h2 class="self-end">File.pdf</h2>
+            <button class="bg-green-400 py-2 px-4  transition-colors duration-500 hover:text-white ease-in-out rounded hover:cursor-pointer hover:bg-gray-800">Download</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
