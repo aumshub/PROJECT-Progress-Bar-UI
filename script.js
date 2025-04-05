@@ -1,4 +1,4 @@
-console.log("JS Running...");
+// console.log("JS Running...");
 
 let button = document.querySelector('button');
 let percent = document.querySelector('h5');
