@@ -20,6 +20,6 @@ if(flag == 0){
     },5000)
     flag = 1;
 }else{
-    alert ("Already Downloaded");
+    alert ("Download already completed.");
 }
 });
