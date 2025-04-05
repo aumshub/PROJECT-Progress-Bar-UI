@@ -22,4 +22,4 @@ if(flag == 0){
 }else{
     alert ("Already Downloaded");
 }
-})
+});
